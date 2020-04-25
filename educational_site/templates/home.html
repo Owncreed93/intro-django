@@ -1,0 +1,14 @@
+{% extends "base_layout.html" %}
+{% block title%} Proyecto Django {% endblock%}
+{% block h1 %}Página de Inicio pues bandidos {% endblock %}
+{% block body %}
+    <div class="card" style="width: 18rem;">
+        {% load static %}
+        <img src="{% static "Daniela-Darcourt.jpg" %}" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Danielita Darcourt</h5>
+        <p class="card-text">Danielita eres la mejor.</p>
+        <a href="https://www.instagram.com/danieladarcourtoficial/" target="_blank" class="btn btn-primary">Instagram</a>
+        </div>
+    </div>
+{% endblock %}
